@@ -28,13 +28,18 @@ class ZodiacSignCVC: UICollectionViewController {
         // Configure the cell
         cell.imgZodiac.image = UIImage(named: ZodiacItems.zodiac[indexPath.row])
         cell.lblZodiac.text = ZodiacItems.zodiac[indexPath.row]
+        self.writeZodiacInfoToPlist(index: indexPath.row)
         return cell
     }
 
     // MARK: UICollectionViewDelegate
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-
+        let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let detailVC = mainSB.instantiateViewController(withIdentifier: "ZodiacDetailScene") as! ZodiacSignDetailVC
+        detailVC.selectedZodiacIndex = indexPath.row
+        
+        navigationController?.pushViewController(detailVC, animated: true)
     }
     
     func writeZodiacInfoToPlist(index: Int) {
