@@ -85,9 +85,21 @@ class SignupVC: UIViewController {
     
     func displayHomeVC(){
         
-        let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let homeVC = mainSB.instantiateViewController(withIdentifier: "HomeScene")
-        navigationController?.pushViewController(homeVC, animated: true)
+        let newUser = User(name: txtName.text!, address: txtAddress.text!, contactNumber: txtContactNumber.text!, postalCode: txtPostalCode.text!, city: cityList[pickCity.selectedRow(inComponent: 0)], email: txtEmail.text!, password: txtPassword.text!, gender: self.gender, dob: pickDOB.date)
+        
+        if User.addUser(newUser: newUser) {
+            let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let homeVC = mainSB.instantiateViewController(withIdentifier: "HomeTVScene")
+            navigationController?.pushViewController(homeVC, animated: true)
+        } else {
+            let infoAlert = UIAlertController(title: "User Account", message: "An account with this email address already exist.", preferredStyle: .alert)
+            infoAlert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+            self.present(infoAlert,animated: true)
+        }
+        
+//        let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//        let homeVC = mainSB.instantiateViewController(withIdentifier: "HomeScene")
+//        navigationController?.pushViewController(homeVC, animated: true)
     }
     
     override func viewDidLoad() {

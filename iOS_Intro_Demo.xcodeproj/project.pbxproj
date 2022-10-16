@@ -16,6 +16,9 @@
 		1C9007D028FC97BA00570BFD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9007CF28FC97BA00570BFD /* HomeVC.swift */; };
 		1CEBE2BF28FC9B09008AF554 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2BE28FC9B09008AF554 /* SignupVC.swift */; };
 		1CEBE2C128FC9B6A008AF554 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C028FC9B6A008AF554 /* User.swift */; };
+		1CEBE2C328FCA138008AF554 /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C228FCA138008AF554 /* HomeTVC.swift */; };
+		1CEBE2C528FCA617008AF554 /* TableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C428FCA617008AF554 /* TableItems.swift */; };
+		1CEBE2C728FCA688008AF554 /* HomeTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C628FCA688008AF554 /* HomeTVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		1C9007CF28FC97BA00570BFD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		1CEBE2BE28FC9B09008AF554 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		1CEBE2C028FC9B6A008AF554 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1CEBE2C228FCA138008AF554 /* HomeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
+		1CEBE2C428FCA617008AF554 /* TableItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableItems.swift; sourceTree = "<group>"; };
+		1CEBE2C628FCA688008AF554 /* HomeTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 				1C9007CF28FC97BA00570BFD /* HomeVC.swift */,
 				1CEBE2BE28FC9B09008AF554 /* SignupVC.swift */,
 				1CEBE2C028FC9B6A008AF554 /* User.swift */,
+				1CEBE2C228FCA138008AF554 /* HomeTVC.swift */,
+				1CEBE2C428FCA617008AF554 /* TableItems.swift */,
+				1CEBE2C628FCA688008AF554 /* HomeTVCell.swift */,
 			);
 			path = iOS_Intro_Demo;
 			sourceTree = "<group>";
@@ -149,8 +158,11 @@
 			files = (
 				1C9007BB28FC92C100570BFD /* LoginVC.swift in Sources */,
 				1CEBE2BF28FC9B09008AF554 /* SignupVC.swift in Sources */,
+				1CEBE2C328FCA138008AF554 /* HomeTVC.swift in Sources */,
+				1CEBE2C728FCA688008AF554 /* HomeTVCell.swift in Sources */,
 				1CEBE2C128FC9B6A008AF554 /* User.swift in Sources */,
 				1C9007D028FC97BA00570BFD /* HomeVC.swift in Sources */,
+				1CEBE2C528FCA617008AF554 /* TableItems.swift in Sources */,
 				1C9007B728FC92C100570BFD /* AppDelegate.swift in Sources */,
 				1C9007B928FC92C100570BFD /* SceneDelegate.swift in Sources */,
 			);
