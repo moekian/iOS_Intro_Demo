@@ -38,8 +38,30 @@ class HomeTVC: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let infoAlert = UIAlertController(title: "Menu Action", message: TableItems.titles[indexPath.row], preferredStyle: .alert)
-        infoAlert.addAction(UIAlertAction(title: "So What !!!", style: .default, handler: nil))
-        self.present(infoAlert, animated: true, completion: nil)
+//        let infoAlert = UIAlertController(title: "Menu Action", message: TableItems.titles[indexPath.row], preferredStyle: .alert)
+//        infoAlert.addAction(UIAlertAction(title: "So What !!!", style: .default, handler: nil))
+//        self.present(infoAlert, animated: true, completion: nil)
+        
+        switch indexPath.row {
+        case 0:
+            print("Audio performed")
+        case 1:
+            print("Video performed")
+        case 2:
+            print("Web performed")
+            let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let webVC = mainSB.instantiateViewController(withIdentifier: "WebScene") as! WebVC
+            navigationController?.pushViewController(webVC, animated: true)
+        case 3:
+            print("Calender performed")
+        case 4:
+            print("Location performed")
+        case 5:
+            print("Contacts performed")
+        case 6:
+            print("Zodiac")
+        default:
+            print("No Action")
+        }
     }
 }

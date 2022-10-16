@@ -19,6 +19,8 @@
 		1CEBE2C328FCA138008AF554 /* HomeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C228FCA138008AF554 /* HomeTVC.swift */; };
 		1CEBE2C528FCA617008AF554 /* TableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C428FCA617008AF554 /* TableItems.swift */; };
 		1CEBE2C728FCA688008AF554 /* HomeTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C628FCA688008AF554 /* HomeTVCell.swift */; };
+		1CEBE2C928FCACD2008AF554 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C828FCACD2008AF554 /* WebVC.swift */; };
+		1CEBE2CB28FCAFCE008AF554 /* copyright.html in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBE2CA28FCAFCE008AF554 /* copyright.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		1CEBE2C228FCA138008AF554 /* HomeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVC.swift; sourceTree = "<group>"; };
 		1CEBE2C428FCA617008AF554 /* TableItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableItems.swift; sourceTree = "<group>"; };
 		1CEBE2C628FCA688008AF554 /* HomeTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVCell.swift; sourceTree = "<group>"; };
+		1CEBE2C828FCACD2008AF554 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		1CEBE2CA28FCAFCE008AF554 /* copyright.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = copyright.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				1CEBE2C228FCA138008AF554 /* HomeTVC.swift */,
 				1CEBE2C428FCA617008AF554 /* TableItems.swift */,
 				1CEBE2C628FCA688008AF554 /* HomeTVCell.swift */,
+				1CEBE2C828FCACD2008AF554 /* WebVC.swift */,
+				1CEBE2CA28FCAFCE008AF554 /* copyright.html */,
 			);
 			path = iOS_Intro_Demo;
 			sourceTree = "<group>";
@@ -145,6 +151,7 @@
 			files = (
 				1C9007C328FC92C500570BFD /* LaunchScreen.storyboard in Resources */,
 				1C9007C028FC92C500570BFD /* Assets.xcassets in Resources */,
+				1CEBE2CB28FCAFCE008AF554 /* copyright.html in Resources */,
 				1C9007BE28FC92C100570BFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,6 +170,7 @@
 				1CEBE2C128FC9B6A008AF554 /* User.swift in Sources */,
 				1C9007D028FC97BA00570BFD /* HomeVC.swift in Sources */,
 				1CEBE2C528FCA617008AF554 /* TableItems.swift in Sources */,
+				1CEBE2C928FCACD2008AF554 /* WebVC.swift in Sources */,
 				1C9007B728FC92C100570BFD /* AppDelegate.swift in Sources */,
 				1C9007B928FC92C100570BFD /* SceneDelegate.swift in Sources */,
 			);
