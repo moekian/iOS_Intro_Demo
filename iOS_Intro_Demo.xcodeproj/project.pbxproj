@@ -14,6 +14,8 @@
 		1C9007C028FC92C500570BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9007BF28FC92C500570BFD /* Assets.xcassets */; };
 		1C9007C328FC92C500570BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9007C128FC92C500570BFD /* LaunchScreen.storyboard */; };
 		1C9007D028FC97BA00570BFD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9007CF28FC97BA00570BFD /* HomeVC.swift */; };
+		1CEBE2BF28FC9B09008AF554 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2BE28FC9B09008AF554 /* SignupVC.swift */; };
+		1CEBE2C128FC9B6A008AF554 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C028FC9B6A008AF554 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1C9007C228FC92C500570BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C9007C428FC92C500570BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C9007CF28FC97BA00570BFD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		1CEBE2BE28FC9B09008AF554 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		1CEBE2C028FC9B6A008AF554 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				1C9007C128FC92C500570BFD /* LaunchScreen.storyboard */,
 				1C9007C428FC92C500570BFD /* Info.plist */,
 				1C9007CF28FC97BA00570BFD /* HomeVC.swift */,
+				1CEBE2BE28FC9B09008AF554 /* SignupVC.swift */,
+				1CEBE2C028FC9B6A008AF554 /* User.swift */,
 			);
 			path = iOS_Intro_Demo;
 			sourceTree = "<group>";
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C9007BB28FC92C100570BFD /* LoginVC.swift in Sources */,
+				1CEBE2BF28FC9B09008AF554 /* SignupVC.swift in Sources */,
+				1CEBE2C128FC9B6A008AF554 /* User.swift in Sources */,
 				1C9007D028FC97BA00570BFD /* HomeVC.swift in Sources */,
 				1C9007B728FC92C100570BFD /* AppDelegate.swift in Sources */,
 				1C9007B928FC92C100570BFD /* SceneDelegate.swift in Sources */,
