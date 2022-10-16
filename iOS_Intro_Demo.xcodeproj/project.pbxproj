@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		1C9007B728FC92C100570BFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9007B628FC92C100570BFD /* AppDelegate.swift */; };
 		1C9007B928FC92C100570BFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9007B828FC92C100570BFD /* SceneDelegate.swift */; };
-		1C9007BB28FC92C100570BFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9007BA28FC92C100570BFD /* ViewController.swift */; };
+		1C9007BB28FC92C100570BFD /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9007BA28FC92C100570BFD /* LoginVC.swift */; };
 		1C9007BE28FC92C100570BFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9007BC28FC92C100570BFD /* Main.storyboard */; };
 		1C9007C028FC92C500570BFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9007BF28FC92C500570BFD /* Assets.xcassets */; };
 		1C9007C328FC92C500570BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C9007C128FC92C500570BFD /* LaunchScreen.storyboard */; };
+		1C9007D028FC97BA00570BFD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9007CF28FC97BA00570BFD /* HomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C9007B328FC92C100570BFD /* iOS_Intro_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Intro_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9007B628FC92C100570BFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C9007B828FC92C100570BFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C9007BA28FC92C100570BFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C9007BA28FC92C100570BFD /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		1C9007BD28FC92C100570BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C9007BF28FC92C500570BFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C9007C228FC92C500570BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C9007C428FC92C500570BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C9007CF28FC97BA00570BFD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				1C9007B628FC92C100570BFD /* AppDelegate.swift */,
 				1C9007B828FC92C100570BFD /* SceneDelegate.swift */,
-				1C9007BA28FC92C100570BFD /* ViewController.swift */,
+				1C9007BA28FC92C100570BFD /* LoginVC.swift */,
 				1C9007BC28FC92C100570BFD /* Main.storyboard */,
 				1C9007BF28FC92C500570BFD /* Assets.xcassets */,
 				1C9007C128FC92C500570BFD /* LaunchScreen.storyboard */,
 				1C9007C428FC92C500570BFD /* Info.plist */,
+				1C9007CF28FC97BA00570BFD /* HomeVC.swift */,
 			);
 			path = iOS_Intro_Demo;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C9007BB28FC92C100570BFD /* ViewController.swift in Sources */,
+				1C9007BB28FC92C100570BFD /* LoginVC.swift in Sources */,
+				1C9007D028FC97BA00570BFD /* HomeVC.swift in Sources */,
 				1C9007B728FC92C100570BFD /* AppDelegate.swift in Sources */,
 				1C9007B928FC92C100570BFD /* SceneDelegate.swift in Sources */,
 			);
