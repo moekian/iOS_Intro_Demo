@@ -60,6 +60,9 @@ class HomeTVC: UITableViewController {
             print("Contacts performed")
         case 6:
             print("Zodiac")
+            let mainSB : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+            let zodiacCVC = mainSB.instantiateViewController(withIdentifier: "ZodiacSignScene") as! ZodiacSignCVC
+            navigationController?.pushViewController(zodiacCVC, animated: true)
         default:
             print("No Action")
         }

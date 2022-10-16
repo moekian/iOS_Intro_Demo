@@ -21,6 +21,9 @@
 		1CEBE2C728FCA688008AF554 /* HomeTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C628FCA688008AF554 /* HomeTVCell.swift */; };
 		1CEBE2C928FCACD2008AF554 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2C828FCACD2008AF554 /* WebVC.swift */; };
 		1CEBE2CB28FCAFCE008AF554 /* copyright.html in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBE2CA28FCAFCE008AF554 /* copyright.html */; };
+		1CEBE2CD28FCB608008AF554 /* ZodiacSignCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2CC28FCB608008AF554 /* ZodiacSignCVC.swift */; };
+		1CEBE2CF28FCB6EE008AF554 /* ZodiacItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2CE28FCB6EE008AF554 /* ZodiacItems.swift */; };
+		1CEBE2D128FCB9CE008AF554 /* ZodiacSignCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2D028FCB9CE008AF554 /* ZodiacSignCVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		1CEBE2C628FCA688008AF554 /* HomeTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTVCell.swift; sourceTree = "<group>"; };
 		1CEBE2C828FCACD2008AF554 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
 		1CEBE2CA28FCAFCE008AF554 /* copyright.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = copyright.html; sourceTree = "<group>"; };
+		1CEBE2CC28FCB608008AF554 /* ZodiacSignCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSignCVC.swift; sourceTree = "<group>"; };
+		1CEBE2CE28FCB6EE008AF554 /* ZodiacItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacItems.swift; sourceTree = "<group>"; };
+		1CEBE2D028FCB9CE008AF554 /* ZodiacSignCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSignCVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 				1CEBE2C628FCA688008AF554 /* HomeTVCell.swift */,
 				1CEBE2C828FCACD2008AF554 /* WebVC.swift */,
 				1CEBE2CA28FCAFCE008AF554 /* copyright.html */,
+				1CEBE2CC28FCB608008AF554 /* ZodiacSignCVC.swift */,
+				1CEBE2CE28FCB6EE008AF554 /* ZodiacItems.swift */,
+				1CEBE2D028FCB9CE008AF554 /* ZodiacSignCVCell.swift */,
 			);
 			path = iOS_Intro_Demo;
 			sourceTree = "<group>";
@@ -164,8 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C9007BB28FC92C100570BFD /* LoginVC.swift in Sources */,
+				1CEBE2D128FCB9CE008AF554 /* ZodiacSignCVCell.swift in Sources */,
 				1CEBE2BF28FC9B09008AF554 /* SignupVC.swift in Sources */,
 				1CEBE2C328FCA138008AF554 /* HomeTVC.swift in Sources */,
+				1CEBE2CD28FCB608008AF554 /* ZodiacSignCVC.swift in Sources */,
+				1CEBE2CF28FCB6EE008AF554 /* ZodiacItems.swift in Sources */,
 				1CEBE2C728FCA688008AF554 /* HomeTVCell.swift in Sources */,
 				1CEBE2C128FC9B6A008AF554 /* User.swift in Sources */,
 				1C9007D028FC97BA00570BFD /* HomeVC.swift in Sources */,
