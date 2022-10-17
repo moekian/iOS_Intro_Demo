@@ -101,17 +101,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home Scene" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBC-Qp-KOC">
-                                <rect key="frame" x="146" y="412" width="98" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Display Gestures" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCn-4z-05W">
+                                <rect key="frame" x="100" y="245" width="190" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="0.2156862745" green="0.50196078430000002" blue="0.72941176470000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take Note" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBC-Qp-KOC">
+                                <rect key="frame" x="140" y="302" width="111" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" red="0.2156862745" green="0.50196078430000002" blue="0.72941176470000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wuq-xO-y4L"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="displayGesturesLbl" destination="RCn-4z-05W" id="1Tg-MW-ok3"/>
+                        <outlet property="takeNoteLbl" destination="FBC-Qp-KOC" id="iUm-Eh-jLU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h1D-Wi-ccz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -383,8 +396,78 @@
             </objects>
             <point key="canvasLocation" x="4205" y="702"/>
         </scene>
+        <!--GestureVC-->
+        <scene sceneID="mla-H1-SwB">
+            <objects>
+                <viewController storyboardIdentifier="GestureScreen" id="dwN-H5-Tst" customClass="GestureVC" customModule="iOS_Intro_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lqf-Au-8va">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happy" translatesAutoresizingMaskIntoConstraints="NO" id="nPX-mI-qbc">
+                                <rect key="frame" x="67" y="351" width="240" height="223"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Mol-JM-PB1" appends="YES" id="Sy6-rY-UHw"/>
+                                    <outletCollection property="gestureRecognizers" destination="TSU-0E-VEj" appends="YES" id="ZDI-dR-9YA"/>
+                                    <outletCollection property="gestureRecognizers" destination="ww2-hl-2cA" appends="YES" id="smz-CR-ONL"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="hEM-9L-Eii">
+                                <rect key="frame" x="41" y="52" width="292" height="249"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="cSh-r0-Bc0" appends="YES" id="SCP-fN-LcL"/>
+                                    <outletCollection property="gestureRecognizers" destination="48O-MB-nQ0" appends="YES" id="Q5n-OB-ZVy"/>
+                                    <outletCollection property="gestureRecognizers" destination="qRk-Qm-1lp" appends="YES" id="zqB-mg-2Tm"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ugD-ZW-B6m"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B68-hF-PQY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="cSh-r0-Bc0">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="dwN-H5-Tst" id="kLy-WR-cm2"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="48O-MB-nQ0">
+                    <connections>
+                        <action selector="handlePinchWithRecognizer:" destination="dwN-H5-Tst" id="Mf1-iG-cgp"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="qRk-Qm-1lp">
+                    <connections>
+                        <action selector="handleRotateWithRecognizer:" destination="dwN-H5-Tst" id="av4-lo-eI3"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <pinchGestureRecognizer id="Mol-JM-PB1">
+                    <connections>
+                        <action selector="handlePinchWithRecognizer:" destination="dwN-H5-Tst" id="iuk-Je-uk2"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="TSU-0E-VEj">
+                    <connections>
+                        <action selector="handleRotateWithRecognizer:" destination="dwN-H5-Tst" id="Mcd-ZC-UaQ"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="ww2-hl-2cA">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="dwN-H5-Tst" id="m9e-A5-mjp"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="3262" y="4"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="cat" width="275" height="183"/>
+        <image name="happy" width="236" height="214"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
