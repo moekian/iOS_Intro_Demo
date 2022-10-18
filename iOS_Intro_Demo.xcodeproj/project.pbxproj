@@ -27,6 +27,8 @@
 		1CEBE2D328FCBFEE008AF554 /* ZodiacSignDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2D228FCBFEE008AF554 /* ZodiacSignDetailVC.swift */; };
 		1CEBE2D528FCC0E6008AF554 /* Zodiac.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CEBE2D428FCC0E6008AF554 /* Zodiac.plist */; };
 		1CEBE2D728FCD3C8008AF554 /* GestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2D628FCD3C8008AF554 /* GestureVC.swift */; };
+		1CEBE2D928FCD73F008AF554 /* NotesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2D828FCD73F008AF554 /* NotesTVC.swift */; };
+		1CEBE2DB28FCF10C008AF554 /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBE2DA28FCF10C008AF554 /* NoteVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		1CEBE2D228FCBFEE008AF554 /* ZodiacSignDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSignDetailVC.swift; sourceTree = "<group>"; };
 		1CEBE2D428FCC0E6008AF554 /* Zodiac.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Zodiac.plist; sourceTree = "<group>"; };
 		1CEBE2D628FCD3C8008AF554 /* GestureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureVC.swift; sourceTree = "<group>"; };
+		1CEBE2D828FCD73F008AF554 /* NotesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTVC.swift; sourceTree = "<group>"; };
+		1CEBE2DA28FCF10C008AF554 /* NoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				1CEBE2D228FCBFEE008AF554 /* ZodiacSignDetailVC.swift */,
 				1CEBE2D428FCC0E6008AF554 /* Zodiac.plist */,
 				1CEBE2D628FCD3C8008AF554 /* GestureVC.swift */,
+				1CEBE2D828FCD73F008AF554 /* NotesTVC.swift */,
+				1CEBE2DA28FCF10C008AF554 /* NoteVC.swift */,
 			);
 			path = iOS_Intro_Demo;
 			sourceTree = "<group>";
@@ -187,6 +193,7 @@
 				1CEBE2BF28FC9B09008AF554 /* SignupVC.swift in Sources */,
 				1CEBE2C328FCA138008AF554 /* HomeTVC.swift in Sources */,
 				1CEBE2D328FCBFEE008AF554 /* ZodiacSignDetailVC.swift in Sources */,
+				1CEBE2DB28FCF10C008AF554 /* NoteVC.swift in Sources */,
 				1CEBE2CD28FCB608008AF554 /* ZodiacSignCVC.swift in Sources */,
 				1CEBE2CF28FCB6EE008AF554 /* ZodiacItems.swift in Sources */,
 				1CEBE2C728FCA688008AF554 /* HomeTVCell.swift in Sources */,
@@ -197,6 +204,7 @@
 				1C9007B728FC92C100570BFD /* AppDelegate.swift in Sources */,
 				1C9007B928FC92C100570BFD /* SceneDelegate.swift in Sources */,
 				1CEBE2D728FCD3C8008AF554 /* GestureVC.swift in Sources */,
+				1CEBE2D928FCD73F008AF554 /* NotesTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

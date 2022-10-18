@@ -36,7 +36,8 @@ class HomeVC: UIViewController {
             let gesturesVC = mainSB.instantiateViewController(withIdentifier: "GestureScreen")
             navigationController?.pushViewController(gesturesVC, animated: true)
         case 2:
-            print("2")
+            let notesVC = mainSB.instantiateViewController(withIdentifier: "NotesScreen")
+            navigationController?.pushViewController(notesVC, animated: true)
         default:
             return
         }
